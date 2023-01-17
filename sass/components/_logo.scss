@@ -1,0 +1,37 @@
+.logo > span {
+    color: var(--color-brand);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+}   
+
+.logo {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    padding: 24px 0;
+    display: block;
+}
+
+
+.logo-footer {
+    color: #ffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+.logo-footer > span {
+    color: var(--color-brand);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+}

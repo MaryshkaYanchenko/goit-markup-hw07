@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--color-text-primary);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: var(--color-background);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.main {
+    background-color: #2F303A;
+    padding: 200px 0;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-image: linear-gradient( to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/main_section_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main__text {
+    color: #ffff;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 696px;
+    margin-right: auto;
+    margin-left: auto;
+}
