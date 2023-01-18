@@ -1,5 +1,6 @@
 .contacts-header {
     display: flex;
+    gap: 30px;
    
     &__link {
         display: flex;
@@ -9,7 +10,7 @@
         font-weight: 500;
         letter-spacing: 0.02em;
         text-decoration: none;
-        margin-right: 50px;
+        // margin-right: 50px;
         padding: 32px 0;
         
         fill: currentColor;

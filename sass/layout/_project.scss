@@ -13,7 +13,8 @@
     
         transition: box-shadow var(--timing-function);
 
-        &:hover{
+        &:hover,
+        &:focus{
             box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
                         0px 4px 4px rgba(0, 0, 0, 0.06), 
                         1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -23,7 +24,7 @@
     &__overlay{
         position: absolute;
         background-color: var(--color-brand);
-        opacity: 0;
+        // opacity: 0;
     
         left: 0;
         top: 0;
@@ -74,9 +75,10 @@
     }
 }
 
-.project__link:hover .project__overlay{
+.project__link:hover .project__overlay,
+.project__link:focus .project__overlay{
     transform: translateY(0);
-    opacity: 1;
+    // opacity: 1;
 }
 
 
