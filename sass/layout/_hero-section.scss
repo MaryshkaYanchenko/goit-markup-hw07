@@ -13,16 +13,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    &__text {
+        color: #ffff;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1.4;
+        text-transform: uppercase;
+        text-align: center;
+        max-width: 696px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
-.main__text {
-    color: #ffff;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.4;
-    text-transform: uppercase;
-    text-align: center;
-    max-width: 696px;
-    margin-right: auto;
-    margin-left: auto;
-}
+

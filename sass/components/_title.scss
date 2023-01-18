@@ -1,24 +1,4 @@
-.title {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.1;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-.title--hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
-
+/*для h2*/
 .caption {
     color: var(--color-text-primary);
     font-size: 36px;

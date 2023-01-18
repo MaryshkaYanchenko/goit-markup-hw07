@@ -1,19 +1,32 @@
 @import './utils/variables';
+@import './utils/visually-hidden';
 
 @import './base/base';
 
+@import './components/backdrop';
 @import './components/buttons';
+@import './components/checkbox';
 @import './components/clients';
+@import './components/contacts';
+@import './components/contacts-header';
+@import './components/link';
 @import './components/logo';
+@import './components/set';
+@import './components/socials';
 @import './components/title';
 
 
-@import './layout/header';
-@import './layout/hero-section';
 @import './layout/activity-section';
 @import './layout/advantages-section';
-@import './layout/footer';
 @import './layout/container';
+@import './layout/header';
+@import './layout/hero-section';
+@import './layout/modal';
+@import './layout/project';
+@import './layout/team-section';
+@import './layout/footer';
+@import './layout/forms';
+
 
 
 

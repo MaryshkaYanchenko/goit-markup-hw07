@@ -10,19 +10,20 @@
 .contacts-footer {
     margin-top: 20px;
     padding: 0;
+
+    &__element{
+        margin: 9px 0 9px 0;
+
+        &:first-child{
+            margin-top: 0;
+        }
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
 }
 
-.contacts-footer__element {
-    margin: 9px 0 9px 0;
-}
-
-.contacts-footer__element:first-child {
-    margin-top: 0;
-}
-
-.contacts-footer__element:last-child {
-    margin-bottom: 0;
-}
 
 .map {
     color: #ffff;
@@ -38,9 +39,9 @@
     text-decoration: none;
 
     transition: color var(--timing-function);
-}
 
-.contacts:hover,
-.contacts:focus {
-    color: var(--color-brand);
+    &:hover,
+    &:focus{
+        color: var(--color-brand);
+    }
 }

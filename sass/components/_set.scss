@@ -1,0 +1,10 @@
+.set{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--projects-set-gap));
+    margin-top: calc(-1 * var(--projects-set-gap));
+}
